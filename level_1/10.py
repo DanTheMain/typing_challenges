@@ -3,8 +3,8 @@ import uuid
 from constants import ___
 
 
-def stringify(value: ___) -> ___:
-    pass
+def stringify(value: str | int | float | None) -> str:
+    return str(value)
 
 
 if __name__ == "__main__":
