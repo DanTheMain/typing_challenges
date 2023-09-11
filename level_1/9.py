@@ -1,10 +1,9 @@
 import uuid
-from typing import Optional
 
 from constants import ___
 
 
-def is_correct_int(raw_int: Optional[str]) -> bool:
+def is_correct_int(raw_int: str | None) -> bool:
     pass
 
 
