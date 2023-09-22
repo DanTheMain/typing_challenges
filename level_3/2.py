@@ -1,15 +1,15 @@
-from typing import TypedDict, Annotated
-#from annotated_types import Gt
+from typing import TypedDict
 
 from constants import ___
 
-class UserType(TypedDict):
+
+class User(TypedDict):
     name: str
     age: int
     transactions_sums: list[int]
     # TODO: annotate positive integer values
 
-def calculate_total_spent_for_user(user: UserType) -> int:
+def calculate_total_spent_for_user(user: User) -> int:
     # попробуй тут воспользовать typing.TypedDict
     pass
 
